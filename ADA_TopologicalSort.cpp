@@ -43,7 +43,7 @@ int main(){
                         // This checks if the child can now become a leaf node (i.e., its in-degree becomes 0).
             if(indeg[i] == 0)  // If the in-degree of the child node becomes 0, it means it is ready to be processed,
                         // as it is no longer dependent on any other node.
-            pq.push(i);    // Push this newly independent node (now a leaf node) into the priority queue for further processing.
+            pq.push(i);    // Push this newly independent node (now a leaf node) into the queue for further processing.
         }
 
     }
