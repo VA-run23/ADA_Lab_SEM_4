@@ -92,3 +92,8 @@ int main() {
 
     return 0;
 }
+
+///SAMPLE OUTPUT:1
+// Enter the number of elements: 5000
+
+// Execution Time: 1.028 ms

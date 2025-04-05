@@ -76,3 +76,12 @@ int main() {
 
     return 0;
 }
+///SAMPLE OUTPUT: 1
+Enter the number of elements: 10000
+
+Time taken: 1.003 ms
+
+///SAMPLE OUTPUT: 2
+Enter the number of elements: 500000
+
+Time taken: 64.016 ms
